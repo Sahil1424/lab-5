@@ -1,0 +1,46 @@
+
+*{
+    background-color: darksalmon;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #666666;
+    background-color: beige;
+    font-size: 70px;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+}
+
+div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid darkslateblue;
+    border-radius: 25px;
+}
+
+p:nth-child(odd) {
+    color: blueviolet;
+}
+p:nth-child(even) {
+    background-color: lightblue;
+    
+}
+
+figure > img{
+    width: 300px;
+    height: 380px;
+    margin: 0.1em;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+
+
+
